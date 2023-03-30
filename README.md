@@ -9,6 +9,6 @@ This library utilizes the following Python packages:
 3. freud - <https://freud.readthedocs.io/en/latest/>
 4. OVITO - <https://www.ovito.org/>
 
-I hereby disclose that this project was inspired by and adopted the structures of the [Dragonfruit](https://github.com/cedelmaier/dragonfruit) project. Many thanks to [@cedelmaier](https://github.com/cedelmaier) for his work for the [Dragonfruit](https://github.com/cedelmaier/dragonfruit) project.
+I hereby disclose that this project was inspired by and adopted partial structures of the [Dragonfruit](https://github.com/cedelmaier/dragonfruit) project. Many thanks to [@cedelmaier](https://github.com/cedelmaier) for his work for the [Dragonfruit](https://github.com/cedelmaier/dragonfruit) project.
 
 Last updated: 2023-03-30 by Jinhyun Lee
