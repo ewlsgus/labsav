@@ -27,6 +27,9 @@ class Analyze:
         r'''Initialize a pipeline with OVITO'''
         self.pipeline_ovito=oi.import_file(self.pipeline)
         self.num_frames=self.pipeline_ovito.source.num_frames
+    def init_freud_system(self, frame):
+        r'''Initialize a freud system for the specified frame'''
+        self.freud_system=self.pipeline_gsd
 
     from _msd import msd
     from _rdf import rdf
