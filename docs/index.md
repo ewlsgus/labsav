@@ -1,5 +1,7 @@
 # Library for Agent-Based Simulation Analysis and Visualization (LABSAVE) Documentation
 
-[Installation](./installation.md)
+TO BE UPDATED
 
-[Modules](./modules/modules.md)
+[Installation](./installation.md) (WIP)
+
+[Modules](./modules/modules.md) (WIP)
