@@ -1,8 +1,9 @@
-from pathlib import Path
 import os, sys
+from pathlib import Path
+
 sys.path.append(os.path.join(Path(__file__).resolve().parents[1], 'calculate'))
 
-class Calculate:
+class Calculate():
     r'''Define useful calculation functions'''
     def __init__(self):
         pass
@@ -10,8 +11,6 @@ class Calculate:
     def get_super(self):
         return self
     
-    from _displacement import displacement
-    from _distance import distance
-    from _lj_like_potential import lj_like_potential
-    from _lj_like_force import lj_like_force
+    import _vector_op as vector_op
+    from _lj_like import lj_like
     from _virial import virial
